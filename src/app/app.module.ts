@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { InvoicePositionFormComponent } from './invoice-position-form/invoice-position-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'
+
 @NgModule({
   declarations: [
     AppComponent,
