@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { InvoicePositionFormComponent } from './invoice-position-form/invoice-position-form.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { NavBarComponent } from './layout/nav-bar/nav-bar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    InvoicePositionFormComponent
+    InvoicePositionFormComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
